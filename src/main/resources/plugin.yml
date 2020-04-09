@@ -1,0 +1,7 @@
+name: LANScapeUtils
+version: ${project.version}
+main: com.github.retropronghorn.lanscapeutils.LANScapeUtils
+api-version: 1.13
+authors: [retropronghorn]
+description: General utilities for the LANScape Network
+website: https://github.com/retropronghorn/LANScapeUtils

@@ -1,0 +1,12 @@
+# NewPlayer
+display_welcome: true
+give_welcome_book: true
+welcome_book_slot: 1
+language:
+  new_player:
+    title: 'LANScape.network'
+    subtitle: 'Welcome to the LANScape!'
+    chatmessage: 'Welcome to the LANScape, Enjoy your stay and be chill!'
+    welcome_book:
+      title: 'LANScape.network'
+      author: 'RetroPronghorn'
