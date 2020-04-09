@@ -14,6 +14,7 @@ import org.bukkit.inventory.meta.BookMeta;
 import java.util.List;
 
 public class NewPlayer {
+
     /**
      * Check if the player is new, if they are send off new server methods.
      *

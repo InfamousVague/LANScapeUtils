@@ -1,5 +1,6 @@
 package com.github.retropronghorn.lanscapeutils;
 
+import com.github.retropronghorn.lanscapeutils.Commands.Commands;
 import com.github.retropronghorn.lanscapeutils.NewPlayer.NewPlayer;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,6 +16,9 @@ public final class LANScapeUtils extends JavaPlugin implements Listener {
         // Plugin startup logic
         this.saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
+
+        // Commands
+        Commands.registerCommands(this);
     }
 
     @Override
